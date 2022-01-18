@@ -1,6 +1,6 @@
 import axios from "axios"
 const soundwavesAPI = axios.create({
-  baseURL: "https://soundwaves-32918-prod.herokuapp.com",
+  baseURL: "https://soundwaves-32918.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
